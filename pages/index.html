@@ -32,7 +32,7 @@
     return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
 };
       src1 = getUrlParameter('src');
-      test1 = document.getElementById("test").src = src1;
+      test1 = document.getElementById("test");
 	test2 = document.getElementById('1').innerHTML = src1;
 test1.setAttribute("src", src1)
     </script>
