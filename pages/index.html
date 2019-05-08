@@ -20,7 +20,7 @@
     <!--<script>
       getParams(window.location.href);
     </script>-->
-    <embed src="./" id="1" width="1366px" height="768px">
+    <embed src="#" width="1366px" height="768px">
 	
 	  <script>
       function getUrlParameter(name) {
@@ -30,7 +30,7 @@
     return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
 };
       src1 = getUrlParameter('src');
-      document.getElementById("1").src = src1;
+      document.getElementByTagName("embed").src = src1;
     </script>
   </body>
 </html>
