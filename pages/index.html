@@ -27,9 +27,9 @@
     var results = regex.exec(location.search);
     return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
 };
-      src = getUrlParameter('src');
-      document.getElementById("1").src = src;
+      src1 = getUrlParameter('src');
+      document.getElementById("1").src = src1;
     </script>
-    <embed id="1" width="1366px" height="768px">
+    <embed src="./" id="1" width="1366px" height="768px">
   </body>
 </html>
