@@ -21,6 +21,8 @@
       getParams(window.location.href);
     </script>-->
     <embed src="#" width="1366px" height="768px">
+	  </embed>
+	<p id="1"></p>
 	
 	  <script>
       function getUrlParameter(name) {
@@ -31,6 +33,7 @@
 };
       src1 = getUrlParameter('src');
       document.getElementByTagName("embed").src = src1;
+	document.getElementById('1').innerHTML = src1;
     </script>
   </body>
 </html>
