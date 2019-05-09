@@ -1,40 +1,8 @@
 <html>
   <head>
     <title>DyKnow Blocker</title>
-    <!--<script>
-      var getParams = function (url) {
-	var params = {};
-	var parser = document.createElement('a');
-	parser.href = url;
-	var query = parser.search.substring(1);
-	var vars = query.split('&');
-	for (var i = 0; i < vars.length; i++) {
-		var pair = vars[i].split('=');
-		params[pair[0]] = decodeURIComponent(pair[1]);
-	}
-	return params;
-};
-    </script>-->
   </head>
   <body>
-    <!--<script>
-      getParams(window.location.href);
-    </script>-->
-    <embed id="test" src="http://zacharysmith.ml" width="1366px" height="768px">
-	  </embed>
-	<p id="1"></p>
-	
-	  <script>
-      function getUrlParameter(name) {
-    name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
-    var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
-    var results = regex.exec(location.search);
-    return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
-};
-      src1 = getUrlParameter('src');
-      test1 = document.getElementById("test");
-	test2 = document.getElementById('1').innerHTML = src1;
-test1.setAttribute("src", src1)
-    </script>
+	<embed src="#">
   </body>
 </html>
