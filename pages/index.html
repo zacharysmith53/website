@@ -3,6 +3,18 @@
     <title>DyKnow Blocker</title>
   </head>
   <body>
-	<embed src="#">
+    <script>
+        function setembed(){
+            var x = document.getElementById("forminput");
+            var url = x.value;
+            document.getElementById("target").src = url;
+        }
+    </script>
+	<embed id="target" src="#">
+	<form id="form">
+	   url:<br>
+	   <input id="forminput" type="text" name="url"><br>
+	</form>
+	<button onclick="setembed()">set url<button>
   </body>
 </html>
