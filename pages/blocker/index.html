@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>DyKnow Blocker</title>
+  </head>
+  <body>
+    <p>test</p>
+    <script>
+        function setembed(){
+            var x = document.getElementById("forminput");
+            var url = x.value;
+            document.getElementById("target").src = url;
+        }
+    </script>
+	<iframe id="target" src="./" height="720" width="128o"></iframe>
+	<form id="form">
+	   url:<br>
+	   <input id="forminput" type="text" name="url"><br>
+	</form>
+	<button onclick="setembed()">set url<button>
+  </body>
+</html>
