@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/zacharysmith53/website/issues"
   },
-  "homepage": "https://github.com/zacharysmith53/website#readme"
+  "homepage": "https://github.com/zacharysmith53/website#readme",
+  "dependencies": {
+    "website-backend": "github:zacharysmith53/website-backend"
+  }
 }
