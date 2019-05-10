@@ -1,3 +1,4 @@
+"use strict";
 function setEmbed(url,target){
     document.getElementById(target).src = url;
 }
@@ -19,10 +20,10 @@ class dynamicembeds {
         if (this.type = "iframe") {
             
         } else if (this.type = "iframewdiv") {
-            loc = document.getElementById(divsource);
-            div = document.createElement("div");
+            var loc = document.getElementById(divsource);
+            var div = document.createElement("div");
             div.id = this.Id + "_div";
-            iframe = document.createElement("iframe");
+            var iframe = document.createElement("iframe");
             iframe.src = this.src;
             iframe.id = this.Id;
             iframe.height = this.height;
@@ -33,7 +34,7 @@ class dynamicembeds {
     }
     changesrc(src) {
         this.src = src;
-        iframe = document.getElementById(this.Id);
+        var iframe = document.getElementById(this.Id);
         iframe.src = this.src;
         return this;
     }
