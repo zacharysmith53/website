@@ -1,0 +1,13 @@
+{
+  "name": "website",
+  "homepage": "https://github.com/zacharysmith53/website",
+  "description": "",
+  "main": "index.html",
+  "authors": [
+    "zacharysmith51"
+  ],
+  "license": "GPL-3.0",
+  "dependencies": {
+    "website-backend": "https://github.com/zacharysmith53/website-backend.git"
+  }
+}

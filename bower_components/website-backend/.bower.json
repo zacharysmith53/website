@@ -1,0 +1,14 @@
+{
+  "name": "website-backend",
+  "homepage": "https://github.com/zacharysmith53/website-backend",
+  "_release": "2188a8530d",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "2188a8530d5f34ef506891a3b7a73bce0e4f7459"
+  },
+  "_source": "https://github.com/zacharysmith53/website-backend.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/zacharysmith53/website-backend.git",
+  "_direct": true
+}
