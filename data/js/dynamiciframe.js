@@ -30,7 +30,13 @@ class dynamicembeds {
             div.appendChild(iframe);
             loc.appendChild(div);
         }
-    }    
+    }
+    changesrc(src) {
+        this.src = src;
+        iframe = document.getElementById(this.Id);
+        iframe.src = this.src;
+        return this;
+    }
 }
 class dynamiciframe extends dynamicembeds {
     constructor(Id,src,height,width,type,divsource){
