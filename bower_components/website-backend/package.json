@@ -1,0 +1,19 @@
+{
+  "name": "website-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zacharysmith53/website-backend.git"
+  },
+  "author": "zacharysmith52",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/zacharysmith53/website-backend/issues"
+  },
+  "homepage": "https://github.com/zacharysmith53/website-backend#readme"
+}
